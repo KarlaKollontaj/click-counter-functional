@@ -1,0 +1,27 @@
+button {
+  width: 250px;  
+  height: 80px;
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer; /*manito en lugar de una flecha encima del boton*/
+}
+
+button:hover {
+    background-color: #00471b;
+}
+
+/*esta es la clase que damos al boton en el operador ternario*/
+.boton-clic {
+    background-color: #002ead;
+}
+
+/*esta es la clase que damos al boton en el operador ternario*/
+.boton-reiniciar {
+    background-color: #5a01a7;
+}
+
